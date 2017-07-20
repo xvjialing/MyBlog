@@ -9,4 +9,4 @@ from django.http import HttpResponse
 
 def index(request):
     # return HttpResponse("hello world!")
-    return render(request,'index.html',{'hello':'hello blog!'})
+    return render(request, 'blog/index.html')
